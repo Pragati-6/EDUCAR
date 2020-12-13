@@ -1,0 +1,16 @@
+body{
+	background-color: rgb(255, 219, 219);
+}
+html{
+	height: 100%;
+}
+.jumbotron
+{
+	background-image: url(https://www.wearenugent.org/app/uploads/2016/06/black-and-white-brick-wall-background-white-brick-wall-image-decoration-picture-white-brick-wall.jpg);
+	background-repeat: no-repeat;
+	image-rendering: auto;
+}
+/*.container{
+	background: url(https://i.pinimg.com/originals/99/1e/5e/991e5eb433f5fc53ddfc0e604e88a339.jpg);
+      color: white;
+}*/

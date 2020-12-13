@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(255, 219, 219);
+}
+
+.template {
+  padding: 20px;
+}
+
+.template-heading {
+  display: flex;
+  padding: 20px;
+  /* height: 350px; */
+}
+
+.template-logo {
+  flex: 0.2;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.template-logo-img > img {
+  width: 100%;
+  /* height: 175px; */
+}
+
+.template-logo-button {
+  padding: 10px;
+  text-align: center;
+}
+
+.template-carousel {
+  flex: 1;
+}
+
+.carousel-inner ::after {
+  display: contents;
+  height: 300px;
+}
+
+.template-content {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid black;
+}
+
+.template-content-index {
+  padding-top: 20px;
+  flex: 0.2;
+  border-right: 1px solid black;
+}
+
+.template-content-index-list {
+  width: 200px;
+  height: 315px;
+  overflow-y: auto;
+}
+
+.template-content-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.template-content-content-video {
+  width: 560px;
+  height: 315px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.template-content-index-heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.template-content-content-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.quiz{
+  color: white;
+}
+
+.quiz:hover{
+  color: white;
+}
+
+.template-content-index-list{
+  cursor: pointer;
+}
